@@ -6,7 +6,7 @@ import { useToast } from '../hooks/use-toast';
 import React, { useState } from 'react';  // <-- Add this import
 import { Send, Mail, MapPin, Phone } from 'lucide-react';
 import { Button } from './ui/button';
-// ... other imports ...
+// ... other 
 
 export const Contact = () => {
   const { toast } = useToast();
